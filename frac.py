@@ -1,20 +1,20 @@
 class fraction:
 
     def __init__(self,top,bottom):
-		self.num=top
+	self.num=top
         self.den=bottom
 
     def show(self):
-		print self.num,"/",self.den
+	print self.num,"/",self.den
 
     def __str__(self):
         return str(self.num)+'/'+str(self.den)
 
     def float_d(self):
-		return float(self.num)/float(self.den)
+	return float(self.num)/float(self.den)
 
     def int_d(self):
-		return int(self.num)/int(self.den)
+	return int(self.num)/int(self.den)
 
     def __add__(self,other):
         from fractions import gcd
