@@ -7,7 +7,7 @@ class Dequeue():
 		self.items.append(item)
 	def addRear(self):
 		self.items.insert(0,item)
-	def removeFront(self,item):
+	def removeFront(self):
 		self.items.pop()
 	def removeRear(self):
 		self.items.pop(0)
