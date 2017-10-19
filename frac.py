@@ -29,4 +29,7 @@ class fraction:
         f1 = self.num*other.den
         f2 = self.den*other.num
         return f1==f2
+    
+    def __del__(self):
+        pass
         
