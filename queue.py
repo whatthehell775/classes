@@ -3,7 +3,7 @@ class Queue:
 		self.items = []
 	
 	def __str__(self):
-		return str(slef.items)	
+		return str(self.items)	
 
 	def isEmpty(self):
 		return self.items == []
@@ -16,4 +16,10 @@ class Queue:
 	
 	def size(self):
 		return len(self.items)
+	
+	def __del__(self):
+		pass
+	
+	def __repr__(self):
+		return str(self.items)
 
