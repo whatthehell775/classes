@@ -15,4 +15,5 @@ class Stack:
         return self.items[-1]
     def size(self):
         return len(self.items)
-    
+    def __repr__(self):
+        return str(self.items)
