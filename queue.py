@@ -22,4 +22,7 @@ class Queue:
 	
 	def __repr__(self):
 		return str(self.items)
+	
+	def __del__(self):
+		pass
 
